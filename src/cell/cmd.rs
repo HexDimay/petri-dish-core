@@ -1,6 +1,6 @@
 #[derive(Debug, Clone, Copy)]
 pub enum Command {
-    Body(CommandBody)
+    Body(CommandBody),
 }
 
 #[derive(Debug, Clone, Copy)]

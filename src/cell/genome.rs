@@ -3,14 +3,14 @@ use crate::cell::cmd::Command;
 #[derive(Debug, Clone)]
 pub struct Genome {
     step: usize,
-    commands: Vec<Command>
+    commands: Vec<Command>,
 }
 
 impl Genome {
     pub fn new() -> Self {
         Self {
             step: 0,
-            commands: vec![]
+            commands: vec![],
         }
     }
 

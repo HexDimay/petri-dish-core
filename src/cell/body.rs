@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 use crate::{
-    cell::{chemical::Chemical, cmd::{CommandBody}},
+    cell::{chemical::Chemical, cmd::CommandBody},
     environment::Environment,
 };
 
